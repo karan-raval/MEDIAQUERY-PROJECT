@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/culture-espresso-home-2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.bars1{
+    display: none ;
+}
+header nav {
+    width: 70%;
+    height: 150px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul li {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul .logo{
+     width:150%;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+     display: flex;
+    letter-spacing: 2px;
+}
+section {
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 1px solid black; */
+    justify-content: center;
+    background-color: #E8E5DE;
+}
+.text-lines {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+#last{
+    line-height: 100px;
+    font-weight: normal;
+}
+.text-line , .right-text , .left-text{
+    text-align: center;
+    height: auto;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+.text-lines .left-text p ,.right-text p{
+    width: 100%;
+    height: 20px;
+    /* font-weight: bold; */
+}
+.image-container {
+    width: 80%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+.image-with-text {
+    width: 30%;
+    height: 550px;
+    text-align: center;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-with-text img {
+    width: 100%; 
+    height: auto;
+}
+.image-with-text h1{
+    line-height: 40px;
+    font-size: 23px;
+}
+.image-with-text p {
+    text-align: center;
+    width: 90%; 
+    /* border: 1px solid red; */
+}
+.text-block p {
+    font-size: 19px;
+    width: 98%;
+}
+.centered-text {
+    width: 100%;
+    height: auto;
+    text-align: center; 
+}
+.centered-text p {
+    font-size: 20px;
+}
+.download-boxes {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid ; */
+}
+.download-boxes .download-box {
+    text-align: center;
+    width: 43%;
+    height: 60px;
+    background-color:#978B3F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-section {
+    position: relative;
+    background:linear-gradient(rgba(80, 64, 53, 0.5),rgba(80, 64, 53, 0.5)), url(img/culture36-025.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    width: 100%;
+}
+.overlay {
+    width: 73%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.overlay p {
+    font-size: 20px;   
+}
+.centered-logo-text-image-section {
+    width: 100%;
+    height: 950px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.centered-logo-text-image-section .centered-content{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centered-logo-text-image-section .centered-content img{
+    width: 25%;
+    height: 90%;
+    /* border: 1px solid red; */
+}
+.centered-content-text-lines p{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+.centered-content-image-row{
+    width: 80%;
+    height: 550px;
+    /* border: 1px solid red ; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.centered-content-image-row img {
+    width: 22%; 
+    height: 250px;
+}
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color:#011314; 
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+} 
+.footer .centered-content1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:150px;
+    /* border: 1px solid; */
+}
+.footer .centered-content1 img{
+    width: 13%;
+    height: 90%;
+}
+  .footer-icons {
+    width: 40%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    /* border: 1px solid rebeccapurple; */
+    font-size: 20px;
+    letter-spacing: 10px;
+}   

@@ -1,0 +1,210 @@
+
+@media(max-width:720px){
+    header{
+        position: relative;
+    }
+    nav ul li {
+        display: none;
+    }
+    ul .logo{
+        width: 40%;
+        height: 100px;
+    }
+    .bars1{
+        /* border: 1px solid red; */
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 50px;
+        font-size: 25px;
+    }
+    section {
+        height: 230vh;
+    }
+
+    .text-lines {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text-line , .right-text , .left-text{
+        width: 36%;
+        height: auto;
+    }
+    .text-lines .left-text p ,.right-text p{
+        height: auto;
+    }
+    .image-container {
+        width: 90%;
+        height: 90vh;
+    }
+    .centered-logo-text-image-section {
+        height: 350vh;
+    }
+    .centered-content-image-row{
+        width: 90%;
+    }
+    .centered-logo-text-image-section .centered-content img{
+        width: 40%;
+    }
+    .centered-content-image-row{
+        height: 270vh;
+    }
+    .centered-content-image-row img {
+        width: 45%;
+        height: 350px;
+    }
+    .footer .centered-content1 img{
+        width: 26%;
+    }
+
+}
+@media(max-width:576px){
+    header{
+        position: relative;
+    }
+    nav ul li {
+        display: none;
+    }
+    ul .logo{
+        width: 50%;
+        height: 100px;
+    }
+    .bars1{
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 50px;
+        font-size: 25px;
+    }
+    section {
+        height: 590vh;
+    }
+    .text-lines {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text-line , .right-text , .left-text{
+        width: 100%;
+        height: auto;
+    }
+    .text-lines .left-text p ,.right-text p{
+        height: auto;
+    }
+    .image-container {
+        width: 90%;
+        height: 450vh;
+    }
+    .image-with-text {
+        width: 100%;
+        height: auto;
+    }
+    .image-with-text h1{
+        width: 100%;
+    }
+    .image-with-text p {
+        width: 50%;
+    }
+    .download-boxes {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .download-boxes .download-box {
+        width: 100%;
+    }
+    .overlay {
+        width: 80%;
+    }
+    .centered-logo-text-image-section {
+        height: 230vh;
+    }
+    .centered-content-image-row{
+        width: 90%;
+    }
+    .centered-logo-text-image-section .centered-content img{
+        width: 50%;
+    }
+    .centered-content-image-row{
+        height: auto;
+        height: 150vh;
+    }
+    .centered-content-image-row img {
+        width: 45%;
+        height: 200px;
+    }
+    .footer .centered-content1 img{
+        width: 26%;
+    }
+}
+
+@media(max-width:480px){
+    header{
+        position: relative;
+    }
+    nav ul li {
+        display: none;
+    }
+    ul .logo{
+        width: 50%;
+        height: 100px;
+    }
+    .bars1{
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 50px;
+        font-size: 25px;
+    }
+    section {
+        height: 510vh;
+    }
+    .text-lines {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text-line , .right-text , .left-text{
+        width: 100%;
+        height: auto;
+    }
+    .text-lines .left-text p ,.right-text p{
+        height: auto;
+    }
+    .image-container {
+        height: 370vh;
+    }
+    .image-with-text {
+        width: 100%;
+        height: auto;
+    }
+    .download-boxes {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .download-boxes .download-box {
+        width: 100%;
+    }
+    .overlay {
+        width: 80%;
+    }
+    .centered-logo-text-image-section {
+        height: 270vh;
+    }
+    .centered-logo-text-image-section .centered-content img{
+        width: 50%;
+    }
+    .centered-content-image-row{
+        height: auto;
+    }
+    .centered-content-image-row img {
+        width: 45%;
+    }
+    .footer .centered-content1 img{
+        width: 26%;
+    }
+}
